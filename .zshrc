@@ -112,6 +112,7 @@ function cddir() {
 # Example aliases
 alias zshrc="vim ~/.zshrc"
 alias c="clear"
+alias m="mkdir"
 alias ..="cd .."
 alias ...="cd ../../../"
 alias ....="cd ../../../../"
