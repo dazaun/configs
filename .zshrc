@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# Change directory without having to use cd
 function cddir() {
     cd "$(find ~/ -type d -name "*$1*" -print -quit)"
 }
