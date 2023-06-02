@@ -8,7 +8,6 @@ set wildmenu
 set confirm
 set cursorline
 set cmdheight=2
-inoremap jj <esc>
 inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ( ()<left>
