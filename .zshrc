@@ -111,9 +111,13 @@ function cddir() {
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
+alias myip="curl ifconfig.me"
+alias monitoring="sudo ~/./monitoring.sh"
 alias zshrc="vim ~/.zshrc"
 alias c="clear"
-alias m="mkdir"
+alias m="make"
+alias f="make fclean"
+alias re="make re"
 alias ..="cd .."
 alias ...="cd ../../../"
 alias ....="cd ../../../../"
